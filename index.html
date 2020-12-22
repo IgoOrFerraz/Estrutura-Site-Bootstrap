@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Reservas e Eventos - BlueJump</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Página de Estilo - CSS -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+  	<header>
+  		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark menu-princ">
+        <div class="container">
+          <button class="navbar-toggler mr-auto" data-toggle="collapse" data-target="#div-princ">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <a href="#" class="navbar-nav navbar-brand">
+            <img src="images/logo.svg" width="110">
+          </a>
+
+       		<div class="collapse navbar-collapse" id="div-princ">
+       				<ul class="navbar-nav menu">
+       					<li class="nav-item navbar-text">
+       						<a href="#sobre" class="nav-link">Sobre</a>
+       					</li>
+       					<li class="nav-item navbar-text">
+       						<a href="#eventos" class="nav-link">Eventos</a>
+       					</li>
+                <li class="nav-item navbar-text">
+                  <a href="#colaboradores" class="nav-link">Colaboradores</a>
+                </li>
+                <li class="nav-item navbar-text">
+                  <a href="#filiados" class="nav-link">Filiados</a>
+                </li>
+                <li class="nav-item navbar-text">
+                  <a href="#contato" class="nav-link">Contato</a>
+                </li>
+       				</ul>
+
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link"><input class="login btn btn-blue-outline"type="button"value="Login"></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"><input class="btn btn-blue" type="button" value="Create Account"></a>
+                </li>
+              </ul>
+       		</div>
+       </div>
+     </nav>
+  	</header>
+    <section id="section-carousel">
+        <div>
+          <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--Carousel -->
+              
+            <div class="carousel-inner"><!--Inner -->
+                    
+              <div class="carousel-item active">
+                <img src="images/show01.jpg" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/show02.jpg" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/show03.jpg" class="img-fluid">
+              </div>
+            </div><!--/Inner -->
+
+              <!-- Controles -->
+            <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div><!--/Carousel -->
+        </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+
+        <p>Vestibulum condimentum a velit tempus blandit. Maecenas est quam, eleifend ut lacus fringilla, iaculis scelerisque lectus. Praesent vehicula ligula neque, eu auctor magna sollicitudin vitae. Nunc ultrices massa id tellus rhoncus, eu lobortis justo pretium. Nullam pulvinar suscipit tellus, in convallis massa ultrices ac. Maecenas fringilla magna justo, quis tempor nulla posuere vestibulum. Vivamus magna dolor, feugiat a blandit eget, bibendum nec enim. Curabitur ac sapien dui. Mauris non orci malesuada purus venenatis facilisis ut non velit. Suspendisse fermentum nisi et sodales elementum. In malesuada molestie nisl, eget efficitur mi sodales vitae. Fusce rhoncus lorem rutrum neque pharetra interdum. Nullam eu varius ligula. Aliquam consequat arcu turpis, ut venenatis eros tempor eu. Nam porttitor orci id purus dapibus porta sed ac ante.</p><br>
+
+        <p>Vivamus ac enim eu libero egestas dapibus nec non lorem. Quisque ultrices condimentum lacus, in auctor urna placerat sed. Quisque a tortor iaculis, sodales tortor in, aliquet ligula. Proin id velit quis ex volutpat gravida. Pellentesque interdum, risus sit amet pellentesque vestibulum, enim libero vehicula urna, ut blandit quam diam non augue.</p><br><br>
+      </div>
+    </section>
+      
+    <section id="eventos" class="container">
+      <div class="row">
+        <div class="col-md-2 filtros">
+          <div class="filtros">
+            <h2>Filtros</h2>
+
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Procurar">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <div class="dropdown-divider"></div>
+
+            <div class="dropdown">
+              <button class="btn btn-blue dropdown-toggle" data-toggle="dropdown" type="button">Categoria</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Shows</a>
+                <a href="#" class="dropdown-item">Festas</a>
+                <a href="#" class="dropdown-item">Baladas</a>
+                <a href="#" class="dropdown-item">Raves</a>
+                <a href="#" class="dropdown-item">Palestras</a>
+                <a href="#" class="dropdown-item">Cursos</a>
+                <a href="#" class="dropdown-item">Vestibulares</a>
+                <a href="#" class="dropdown-item">Orgias</a>
+                <a href="#" class="dropdown-item">Swings</a>
+              </div>
+            </div>
+
+            <div class="dropdown-divider"></div>
+
+            <div class="dropdown">
+              <button class="btn btn-blue dropdown-toggle" data-toggle="dropdown" type="button">Estado</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">São Paulo</a>
+                <a href="#" class="dropdown-item">Paraná</a>
+                <a href="#" class="dropdown-item">Espirito Santo</a>
+                <a href="#" class="dropdown-item">Goias</a>
+                <a href="#" class="dropdown-item">Rio de Janeiro</a>
+                <a href="#" class="dropdown-item">Mato Grosso</a>
+                <a href="#" class="dropdown-item">Minas Gerais</a>
+                <a href="#" class="dropdown-item">Amazonas</a>
+                <a href="#" class="dropdown-item">Acre</a>
+              </div>
+            </div>
+
+            <div class="dropdown-divider"></div>
+
+            <div class="dropdown">
+              <button class="btn btn-blue dropdown-toggle" data-toggle="dropdown" type="button">Cidades</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Ourinhos</a>
+                <a href="#" class="dropdown-item">Assis</a>
+                <a href="#" class="dropdown-item">Salto Grande</a>
+                <a href="#" class="dropdown-item">Manaus</a>
+                <a href="#" class="dropdown-item">Bahia</a>
+                <a href="#" class="dropdown-item">Mato Grosso</a>
+                <a href="#" class="dropdown-item">Minas Gerais</a>
+                <a href="#" class="dropdown-item">Amazonas</a>
+                <a href="#" class="dropdown-item">Acre</a>
+              </div>
+            </div>
+
+            <div class="dropdown-divider"></div>
+
+            <div class="dropdown">
+              <button class="btn btn-blue dropdown-toggle" data-toggle="dropdown" type="button">Ordenar</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Menos Caro</a>
+                <a href="#" class="dropdown-item">Mais Caro</a>
+                <a href="#" class="dropdown-item">Mais Recente</a>
+                <a href="#" class="dropdown-item">Menos Recente</a>
+                <a href="#" class="dropdown-item">Mais Popular</a>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
+
+        <div class="col-md-10 conteudo">
+          <div class="container wrap itens">
+            <div class="item">
+              <img src="images/joker.jpg">
+              <h3>Guanabara Park</h3>
+              <p class="ident">25/12/2019 - Ourinhos-SP</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum nibh tortor, vehicula tincidunt felis egestas eget. Nunc finibus tellus a risus vestibulum bibendum. Proin eu efficitur nisl, quis rutrum purus.</p>
+              <h3>R$ 198,00</h3>
+            </div>
+            <div class="item">
+              <img src="images/joker.jpg">
+              <h3>Guanabara Park</h3>
+              <p class="ident">25/12/2019 - Ourinhos-SP</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum nibh tortor, vehicula tincidunt felis egestas eget. Nunc finibus tellus a risus vestibulum bibendum. Proin eu efficitur nisl, quis rutrum purus.</p>
+              <h3>R$ 198,00</h3>
+            </div>
+            <div class="item">
+              <img src="images/joker.jpg">
+              <h3>Guanabara Park</h3>
+              <p class="ident">25/12/2019 - Ourinhos-SP</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum nibh tortor, vehicula tincidunt felis egestas eget. Nunc finibus tellus a risus vestibulum bibendum. Proin eu efficitur nisl, quis rutrum purus.</p>
+              <h3>R$ 198,00</h3>
+            </div>
+            
+          </div>
+          <div class="button-nextprev-toolbar btn-toolbar">
+            <div class="btn-group">
+              <button class="btn btn-blue-toolbar" type="button"> << </button>
+              <button class="btn btn-blue-toolbar" type="button">1</button>
+              <button class="btn btn-blue-toolbar" type="button">2</button>
+              <button class="btn btn-blue-toolbar" type="button">3</button>
+              <button class="btn btn-blue-toolbar" type="button">4</button>
+              <button class="btn btn-blue-toolbar" type="button">5</button>
+              <button class="btn btn-blue-toolbar" type="button">6</button>
+              <button class="btn btn-blue-toolbar" type="button"> >> </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="colaboradores">
+      <div class="container">
+         <h2>Colaboradores</h2>
+        <div class="wrap itens">
+          <div class="item">
+          <img src="images/joker.jpg">
+          <h3>IgoOr Ferraz</h3>
+          <p>Analista de Sistemas da Faculdade de Tecnologia de Ourinhos e Região</p>
+        </div>
+        <div class="item">
+          <img src="images/joker.jpg">
+          <h3>IgoOr Ferraz</h3>
+          <p>Analista de Sistemas da Faculdade de Tecnologia de Ourinhos e Região</p> 
+        </div>
+        <div class="item">
+          <img src="images/joker.jpg">
+          <h3>IgoOr Ferraz</h3>
+          <p>Analista de Sistemas da Faculdade de Tecnologia de Ourinhos e Região</p>  
+        </div>
+        </div>     
+      </div>
+    </section>
+
+    <section id="filiados">
+      <div class="container">
+         <h2>Filiados</h2>
+        <div class="wrap itens">
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+          <div class="item">
+            <img src="images/joker.jpg">
+          </div>
+      </div>     
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="index.html"><img class="logo-rodape" src="images/logo.svg"></a>
+          </div>
+          <div class="col-md-1">
+            <h4>Company</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Empregos</a></li>
+              <li><a href="">Imprensa</a></li>
+              <li><a href="">Novidades</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1">
+            <h4>Comunidades</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Artistas</a></li>
+              <li><a href="">Desenvolvedores</a></li>
+              <li><a href="">Marcas</a></li>
+            </ul>
+          </div>
+          <div class="ml-auto patro col-md-2">
+            <a href="facebook.com"><img src="images/facebook.png"></a>
+            <a href="instagram.com"><img src="images/instagram.png"></a>
+            <a href="twitter.com"><img src="images/twitter.png"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

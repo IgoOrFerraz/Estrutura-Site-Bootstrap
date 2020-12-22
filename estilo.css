@@ -1,0 +1,214 @@
+/* ----Global---- */
+p, html, body{
+	font-family: helvetica;
+}
+h2{
+	padding: 20px;
+	color: #00b8f8;
+}
+p{
+	text-align: justify;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+/* ---------------------- */
+
+
+ul.menu li a{	margin-left: 20px;	}	/* ----Menu---- */
+
+
+/* ----Footer---- */
+footer{
+	background-color: #363636;
+}
+footer ul li{
+	float: right;
+	margin: 0px 5px;
+}
+footer h4{
+	color: #00b8f8;
+	font-size: 12px;
+	margin-top: 20px;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+}
+footer a:hover{
+	color: #00b8f8;
+	text-decoration: none;
+}
+footer a img{
+	height: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.logo-rodape{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 80px;
+}
+/* ---------------------- */
+
+
+/* ----Carousel---- */
+#section-carousel div{
+	margin-top: 40px;
+}
+.carousel-item img{
+    min-width: 100%;
+    max-height: 600px;
+}
+/* ---------------------- */
+
+
+/* ----Buttons---- */
+.btn.btn-blue{
+	color: white;
+	background: #00b8f8;
+	border-color: white; 
+}
+.btn.btn-blue:hover{
+	border-color: #00b8f8;
+	color: #00b8f8;
+	background: white;
+}
+.btn.btn-blue-outline{
+	color: #00b8f8;
+	border-color: #00b8f8;
+}
+.btn.btn-blue-outline:hover{
+	color: white;
+	border-color: white;
+}
+.btn.btn-blue-toolbar{
+	background-color: #00b8f8;
+	color: white;
+}
+.btn.btn-blue-toolbar:hover{
+	background-color: white;
+	color: #00b8f8;
+}
+/* ---------------------- */
+
+
+/* ----Sobre---- */
+#sobre{
+	background-color: #363636;
+	color: white;
+	margin-bottom: 45px;
+}
+/* ---------------------- */
+
+
+/* ----Eventos---- */
+#eventos{
+	margin-bottom: 50px;
+}
+#eventos button, .input-group{
+	margin-left: 20px; 
+}
+div.dropdown-menu .dropdown-item{
+	background-color: white;
+	color: #00b8f8;
+}
+div.dropdown-menu .dropdown-item:hover{
+	background-color: #00b8f8;
+	color: white;
+}
+#eventos div.conteudo{
+	background-color: #D3D3D3;
+}
+#eventos div.conteudo .p-2 img{
+	width: 150px;
+	height: 150px;
+}
+#eventos .item{
+	max-width: 250px;
+	height: 400px;
+	flex: 1;
+	margin: 20px;
+	text-align: center;			
+	background-color: white;
+	box-shadow: 5px 5px 5px #A9A9A9;
+	border-radius: 10px;
+}
+#eventos .conteudo .container{
+	display: flex;
+}
+.item img{
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+#eventos h3{
+	margin-top: 5px;
+	font-size: 20px;
+	color: #00b8f8;
+}
+#eventos p{
+	margin: 10px;
+	font-size: 10px;
+}
+#eventos p.ident{
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+#eventos .button-nextprev-toolbar{
+	justify-content: center;
+}
+#eventos .button-nextprev-toolbar button{
+	margin: 20px 0px 10px 0px;
+}
+/* ---------------------- */
+
+
+/* ----Colaboradores---- */
+#colaboradores img{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+#colaboradores{
+	background-color: #363636;
+	color: white;
+	margin-bottom: 50px;
+}
+#colaboradores .item{
+	max-width: 350px;
+	height: 450px;
+	flex: 1;
+	margin: 15px;
+}
+#colaboradores .itens{
+	display: flex;
+}
+/* ---------------------- */
+
+
+/* ----Filiados---- */
+#filiados img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+#filiados{
+	margin-bottom: 50px;
+}
+#filiados .item{
+	max-width: 100px;
+	max-height: 100px;
+	flex: 1;
+	margin: 25px;
+}
+#filiados .itens{
+	display: flex;
+}
+/* ---------------------- */
+
+
+/* ----Contatos---- */
